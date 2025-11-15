@@ -80,6 +80,20 @@
             color: white;
             margin-top: 20px;
         }
+
+        /* Science Video Styling */
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -94,6 +108,7 @@
             <li><a href="#about">About Me</a></li>
             <li><a href="#sports">Sports</a></li>
             <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#science">Science Videos</a></li>
         </ul>
     </nav>
 
@@ -115,6 +130,32 @@
     <section id="achievements">
         <h2>Achievements</h2>
         <p>🏆 <strong>1st Prize</strong> – Running Competition</p>
+    </section>
+
+    <!-- Science Videos Section -->
+    <section id="science">
+        <h2>Science Videos</h2>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/Ke90Tje7VS0"
+                    title="How Transistors Work"
+                    frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/2iPmeZz87PE"
+                    title="How Solar Panels Work"
+                    frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/GVIczcGdT4A"
+                    title="The Amazing World of Atoms"
+                    frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
     </section>
 
     <button id="surpriseBtn">Click for Motivation</button>
